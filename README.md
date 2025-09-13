@@ -1,3 +1,8 @@
+# Descripción:
+Este proyecto es una aplicación de gestión de listas de tareas (To-Do List) desarrollada como parte de una consigna técnica. Utiliza el Model Context Protocol (MCP) para estructurar la lógica de negocio y la gestión de datos, permitiendo crear, modificar y eliminar listas y tareas. La API REST está implementada con FastAPI y la persistencia de datos se realiza con SQLAlchemy y SQLite. El proyecto está dockerizado para facilitar su despliegue y pruebas.
+
+Como posible seguimiento, el proyecto puede integrarse con un modelo de lenguaje (LLM) y aprovechar las herramientas (tools) del MCP para automatizar tareas, generar respuestas inteligentes o interactuar de forma avanzada con los datos.
+
 ## Diagrama de la Base de Datos
 
 ![Diagrama ER](ERdiagram.png)
